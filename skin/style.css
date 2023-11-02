@@ -1,5 +1,4 @@
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+body {
+    padding: 100px 0 0 0;
+    margin: 0 0 1000px 0;
 }
