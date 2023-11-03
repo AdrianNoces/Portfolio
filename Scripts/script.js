@@ -7,7 +7,7 @@ const homeButton = document.getElementById("homeButton");
 
 exampleButton.addEventListener("click", function () {
   contentDiv.innerHTML = `
-  <li><a href="./Examples/Amazon/amazon.html">amazon</a></li>
+  <li><a href="./Examples/Amazon/index.html">amazon</a></li>
   <li><a href="">none</a></li>
   <li><a href="">none</a></li>
   <li><a href="">none</a></li
