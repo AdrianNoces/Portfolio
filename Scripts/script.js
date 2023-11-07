@@ -8,4 +8,4 @@ homeButton.addEventListener("click", function () {
   contentDiv.innerHTML = `
   <p>changed</p>
   `
-})
+});
