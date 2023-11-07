@@ -1,9 +1,9 @@
 document.body.innerHTML = `
       <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">AdrianNoces</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <a class="navbar-brand" href="#" class="logo" style="font-family: 'Zeyada', cursive; font-size:40px; padding:0; margin:0 0 0 1rem">A</a>
+          <button style="border: none; background: transparent;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="material-symbols-outlined">Menu</span>
           </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
@@ -33,7 +33,7 @@ document.body.innerHTML = `
                   </ul>
                 </li>
               </ul>
-              <form class="d-flex mt-3" role="search">
+              <form class="d-flex mt-3" role="search" id="form">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
               </form>
@@ -43,6 +43,9 @@ document.body.innerHTML = `
       </nav>
 
       <div class="content" id="contentDiv">
-        <p>Under Development</p>
+        <li id="homeButton2"><a href="#">Home</a></li>
+        <li><a href="">Examples</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Contacts</a></li>
       </div>
 `;
