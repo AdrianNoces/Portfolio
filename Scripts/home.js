@@ -1,11 +1,11 @@
 document.body.innerHTML = `
       <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#" class="logo" style="font-family: 'Zeyada', cursive; font-size:40px; padding:0; margin:0 0 0 1rem">A</a>
+          <a class="navbar-brand" href="#" class="logo" style="font-size:40px; font-family: codec; padding:0; margin:0 0 0 1rem">AEsth</a>
           <button style="border: none; background: transparent;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="material-symbols-outlined">Menu</span>
           </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas offcanvas-end" style="font-family: codec;" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Portfolio</h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>

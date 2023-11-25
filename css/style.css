@@ -4,6 +4,16 @@ body {
     background-color: #0;
 }
 
+@font-face {
+    font-family: codec;
+    src: url(/fonts/Codec-Cold-Heavy-trial.ttf);
+}
+
+.logo {
+    font-family: codec;
+}
+
+
 .content {
     height: 650px;
     width: 100%;
@@ -27,6 +37,3 @@ a:hover {
     margin: auto;
 }
 
-.logo {
-    font-family: 'Zeyada', cursive;
-}
