@@ -1,3 +1,3 @@
 # AdrianNoces.github.io
 Portfolio
-made with javascript
+made with Vanilla javascript
